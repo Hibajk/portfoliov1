@@ -498,18 +498,18 @@ h1{
     gap: 2.5rem;
   }
   .service-box{
-    background-color: grey;
-    color: black;
+    background: transparent;
+    color: white;
+    transform: scale(1.03);
+    border: 1px solid white;
     height: 320px;
     border-radius: 3rem;
     cursor: pointer;
     transition: 0.3s ease;
   }
   .service-box:hover{
-    background: transparent;
-    color: white;
-    transform: scale(1.03);
-    border: 1px solid white;
+    background-color: grey;
+    color: black;
   }
   .service-box .service-info{
     display: flex;
@@ -531,7 +531,7 @@ h1{
     font-weight: 200;
     max-height: 100px;
     margin: auto;
-    color: #333;
+    color: #636060;
   }
 
   .heading{
@@ -574,8 +574,10 @@ h1{
   }
 
   .skills .container{
-    background: rgb(77, 75, 75);
+    background: transparent;
     color: white;
+    transform: scale(1.03);
+    border: 1px solid white;
     border-radius: 1rem;
     padding: 2rem;
     width: 70%;
