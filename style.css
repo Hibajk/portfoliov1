@@ -3,11 +3,14 @@
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden;
+    scrollbar-width: none;
 }
+
+
 
 .container{
     background-color: black;
-    overflow-x: hidden;
 }
 
 .salute{
@@ -286,27 +289,27 @@
 
 
 .row {
-    display: flex; /* Use flexbox for layout */
+    display: flex;
     justify-content: center;
 }
 
 .contact-left, .contact-right {
-    flex: 1; /* Allow both columns to grow equally */
-    padding: 20px; /* Add some padding inside each column */
+    flex: 1; 
+    padding: 20px; 
 }
 
 .contact-left {
-    max-width: 400px; /* Optional: Set a max width for the left column */
+    max-width: 400px;
 }
 
 .contact-right {
-    max-width: 600px; /* Optional: Set a max width for the right column */
+    max-width: 600px;
 }
 
 
 form {
     display: flex;
-    flex-direction: column; /* Stack form elements vertically */
+    flex-direction: column;
 }
 
 
@@ -389,7 +392,7 @@ h1{
     color: white;
   }
   
-  .contact{                            /*h*/
+  .contact{                            
     min-height: 100vh; 
     background: black;
   }
@@ -479,7 +482,7 @@ h1{
     background-color: #333;
     color: rgb(202, 194, 194);
     box-shadow: 0 0 10px #333;
-  }   
+  }
   
   
 
@@ -578,7 +581,6 @@ h1{
     background: transparent;
     color: black;
     transform: scale(1.03);
-    /* border: 1px solid white; */
     border-radius: 1rem;
     padding: 2rem;
     width: 70%;
@@ -598,7 +600,6 @@ h1{
     padding: 10px;
     border-radius: 1rem;
     background: rgb(134, 129, 129);
-    /* border: 1px solid white; */
     box-shadow: 0 4px 10px rgb(134, 129, 129);
     transition: 0.3s ease;
     cursor: pointer;
@@ -665,9 +666,9 @@ h1{
       transform: none !important;
     }
     
-    /*.githubChart{
+    /* .githubChart{
       display: none;
-    }*/
+    } */
   
     .githubTitle{
       text-align: center;
@@ -684,6 +685,10 @@ h1{
       text-align: center;
     }
   }
+
+
+
+
 
   @media only screen and (max-width:600px) {
     .contact-left, .contact-right{
