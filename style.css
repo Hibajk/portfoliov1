@@ -7,6 +7,7 @@
 
 .container{
     background-color: black;
+    overflow-x: hidden;
 }
 
 .salute{
@@ -575,9 +576,9 @@ h1{
 
   .skills .container{
     background: transparent;
-    color: white;
+    color: black;
     transform: scale(1.03);
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 1rem;
     padding: 2rem;
     width: 70%;
@@ -597,6 +598,7 @@ h1{
     padding: 10px;
     border-radius: 1rem;
     background: rgb(134, 129, 129);
+    /* border: 1px solid white; */
     box-shadow: 0 4px 10px rgb(134, 129, 129);
     transition: 0.3s ease;
     cursor: pointer;
